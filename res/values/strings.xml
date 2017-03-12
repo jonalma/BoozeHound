@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Booze Hound</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string><string-array name="bartender_ingredients">
+        <item >Alcoholic Ingredient</item>
+        <item >Vodka</item>
+        <item >Gin</item>
+        <item >Tequila</item>
+        <item >Rum</item>
+        <item >Scotch</item>
+    </string-array>
+    <string-array name="bartender_howtomake">
+        <item >Ratchet Cocktail</item>
+        <item >Chocolate Rain</item>
+        <item >I dont know</item>
+        <item >Jungle Juice</item>
+    </string-array>
+    
+
+</resources>

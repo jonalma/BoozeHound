@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#93C3EB"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/skyline2" />
+
+    <ListView
+        android:id="@+id/discoverList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:gravity="center_horizontal"
+        tools:listitem="@android:layout/simple_list_item_1" >
+
+    </ListView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/bhheader" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:text="Boozey&apos;s Top Spots in Long Beach, CA"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:typeface="sans" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="67dp"
+        android:src="@drawable/yis" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginRight="69dp"
+        android:src="@drawable/beercrop" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginLeft="26dp"
+        android:src="@drawable/beercrop" />
+
+</RelativeLayout>

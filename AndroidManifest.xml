@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.boozehound.jab"
+    android:screenOrientation="portrait"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    
+    <!-- Permission for Internet -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <application
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:icon="@drawable/yis"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Beverage-->
+        <activity
+            android:name="com.boozehound.jab.DrinkFinder"               
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- Beverage-->
+        <activity
+            android:name="com.boozehound.jab.Beverage"               
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- Sniff Page activity -->
+        <activity
+            android:name="com.boozehound.jab.Sniff"               
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- Games Page activity -->
+        <activity
+            android:name="com.boozehound.jab.Games"               
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- Quotes Page activity -->
+        <activity
+            android:name="com.boozehound.jab.Quotes"               
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- Discover Page activity -->
+        <activity
+            android:name="com.boozehound.jab.DiscoverPage"               
+            android:label="@string/app_name" >
+        </activity>
+        
+         <!-- Bartender Page activity -->
+        <activity
+            android:name="com.boozehound.jab.Bartender"               
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- Splash activity -->
+        <activity
+            android:name="com.boozehound.jab.Splash"               
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Main activity -->
+        <activity
+            android:name="com.boozehound.jab.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

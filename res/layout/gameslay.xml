@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#93C3EB" >
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/bhheader" />
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="#93C3EB" 
+        android:cacheColorHint="#93C3EB"
+        android:background="@android:color/transparent" >
+    </ExpandableListView>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/skyline2" />
+
+</LinearLayout>
